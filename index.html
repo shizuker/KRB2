@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Библиотека</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Библиотека</h1>
+
+        <form id="bookForm">
+            <input id="title" placeholder="Название книги" required>
+            <input id="author" placeholder="Автор" required>
+            <button>Добавить</button>
+        </form>
+
+        <div class="buttons">
+            <button id="availableButton">Доступные книги</button>
+            <button id="allButton">Все книги</button>
+        </div>
+
+        <input id="search" placeholder="Поиск по названию">
+        <ul id="bookList"></ul>
+        <h2>Статистика по авторам</h2>
+        <div id="stats"></div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+
